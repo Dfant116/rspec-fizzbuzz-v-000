@@ -6,3 +6,5 @@ def fizzbuzz(x)
   else x % 15 == 0
     puts "FizzBuzz"
   end
+end
+
