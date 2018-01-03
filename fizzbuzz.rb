@@ -1,12 +1,17 @@
-def fizzbuzz
-  if 3
+def fizzbuzz(x)
+  if x = 3
     puts "Fizz"
-  elsif 5
+  elsif x = 5
     puts "Buzz"
-  elsif 15
+  elsif x = 15
     puts "FizzBuzz"
-  else 9
-    puts nil
+  else x = 4
+    puts nil 
   end
+
+  
+    
+    
+
 
   
