@@ -3,7 +3,11 @@ def fizzbuzz(x)
     "Fizz"
   elsif x % 5 == 0
     "Buzz"
-  else x % 15 == 0
+  elsif x % 15 == 0
     "FizzBuzz"
+  else x % 4 == 0
+    nil
   end
 end
+
+
